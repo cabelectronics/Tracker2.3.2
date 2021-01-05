@@ -1,1 +1,1 @@
-# Tracker2.3.2
+-Avaliable also for .kmz files

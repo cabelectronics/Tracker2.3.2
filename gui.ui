@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>583</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Moto 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Moto  2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Moto  3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Moto  4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Airplane</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Helicopter</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>20</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>COM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>COLOR</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>90</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>280</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>NO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM20</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>50</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>90</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_9">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>130</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>180</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_11">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>230</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_12">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>280</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>green</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>blue</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>orange</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>purple</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>grey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>white</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pink</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>GPX File</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>50</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Baud Rate</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_13">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>110</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1200</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4800</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9600</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19200</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38400</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>57600</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>115200</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>170</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Coordinates of the race</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>200</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Latitude&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>250</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Longitude&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>340</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>350</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>3ds</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Main Moto</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_14">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>360</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Moto1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moto2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moto3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Moto4</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>583</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
